@@ -1,0 +1,2 @@
+# Run Spirit Angelus Python script
+python C:\spirit_angelus.py

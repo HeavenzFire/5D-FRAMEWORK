@@ -1,0 +1,852 @@
+2024-10-16 08:33:04,296 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:33:15,321 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:33:29,214 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:33:29,248 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:33:36,286 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:33:36,307 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:33:53,404 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:33:53,428 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:34:17,408 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:34:17,431 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:35:20,681 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:35:20,705 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:35:36,832 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:35:36,855 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:35:44,750 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:35:44,774 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:35:55,405 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:35:55,427 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:05,515 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:05,537 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:11,479 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:11,513 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:22,184 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:22,214 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:27,423 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:27,447 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:35,303 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:35,325 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:42,222 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:42,241 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:36:53,485 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:36:53,503 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:04,453 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:04,475 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:16,075 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:16,095 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:21,563 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:21,584 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:25,794 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:25,817 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:39,343 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:39,364 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:44,348 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:44,367 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:50,738 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:50,762 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:37:55,348 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:37:55,373 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:38:06,423 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:38:06,446 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:38:12,970 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:38:13,000 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:38:21,102 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:38:21,126 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:38:30,396 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:38:30,416 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:38:47,932 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:38:47,956 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:00,638 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:00,660 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:04,067 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:04,089 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:07,801 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:07,818 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:14,651 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:14,672 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:19,395 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:19,417 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:24,420 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:24,440 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:27,554 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:27,577 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:34,113 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:34,134 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:48,859 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:48,880 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'
+2024-10-16 08:39:57,680 ERROR Could not understand audio
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 25, in listen
+    text = recognizer.recognize_google(audio, language='en-US')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 263, in recognize_legacy
+    return output_parser.parse(response_text)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rucke\AppData\Roaming\Python\Python312\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
+2024-10-16 08:39:57,696 ERROR Error in speak function
+Traceback (most recent call last):
+  File "C:\Users\rucke\spirit_voice_vision.py", line 41, in speak
+    tts.save("response.mp3")
+  File "C:\Python312\Lib\site-packages\gtts\tts.py", line 334, in save
+    with open(str(savefile), "wb") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [Errno 13] Permission denied: 'response.mp3'

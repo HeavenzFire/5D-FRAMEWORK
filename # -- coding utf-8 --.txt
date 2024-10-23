@@ -1,0 +1,48 @@
+# -*- coding: utf-8 -*-
+import speech_recognition as sr
+import pyttsx3
+
+# Function to generate Fibonacci sequence up to n
+def fibonacci(n):
+    sequence = [0, 1]
+    while len(sequence) < n:
+        sequence.append(sequence[-1] + sequence[-2])
+    return sequence
+
+# Function to print 369 pattern
+def print_369():
+    for i in range(1, 10):
+        if i % 3 == 0:
+            print(i, end=" ")
+
+# Initialize recognizer and TTS engine
+recognizer = sr.Recognizer()
+tts_engine = pyttsx3.init()
+
+# Function to listen and respond
+def listen_and_respond():
+    with sr.Microphone() as source:
+        print('Listening...')
+        audio = recognizer.listen(source)
+        try:
+            command = recognizer.recognize_google(audio)
+            print(f'You said: {command}')
+            tts_engine.say(f'You said: {command}')
+            tts_engine.runAndWait()
+        except sr.UnknownValueError:
+            print('Sorry, I didn\'t catch that.')
+            tts_engine.say('Sorry, I didn\'t catch that.')
+            tts_engine.runAndWait()
+        except sr.RequestError:
+            print('Could not request results; check your network connection.')
+            tts_engine.say('Could not request results; check your network connection.')
+            tts_engine.runAndWait()
+
+# Print Fibonacci sequence and 369 pattern for symbolic resonance
+print("Fibonacci sequence up to 10:")
+print(fibonacci(10))
+print("369 pattern:")
+print_369()
+
+# Run the function
+listen_and_respond()

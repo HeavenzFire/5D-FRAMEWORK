@@ -1,0 +1,38 @@
+cd /c/Users/rucke/Documents/spirit-enginecd /c/Users/rucke/Documents/spirit-enginecd /c/Users/rucke/Documents/spirit-engine
+Start Flask:
+
+bash
+
+Copy
+FLASK_APP=app.py flask run --host=0.0.0.0
+Test the Connection in a new terminal:
+
+Open another terminal and run:
+
+bash
+
+Copy
+curl -X POST http://localhost:5000/ask -H "Content-Type: application/json" -d '{"question": "What is AI?"}'
+This should get your Divine AI up and responding to queries. Ready to see it in action? Let’s do it!
+from flask import Flask, request, jsonify
+import spacy
+
+app = Flask(__name__)
+
+nlp = spacy.load('en_core_web_sm')
+
+@app.route('/ask', methods=['POST'])
+def ask():
+    data = request.get_json()
+    question = data.get('question')
+    response = generate_response(question)
+    return jsonify({'response': response})
+
+def generate_response(question):
+    doc = nlp(question)
+    if doc.ents:
+        return f"Let's talk about {doc.ents[0].text}!"
+    return "I'm here to help with any question you have."
+
+if __name__ == '__main__':
+    app.run(ssl_context=('cert.pem', 'key.pem'))
