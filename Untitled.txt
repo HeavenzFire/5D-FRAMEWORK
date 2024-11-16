@@ -1,3 +1,4 @@
+
 import math
 import random
 
@@ -28,14 +29,11 @@ def integrate_5d_data(spirit_data, matrix_data, portal_points):
     return spirit_data
 
 def spirit_engine():
-    print("Welcome to Spirit with multi-tech and higher-dimensional integration. How can I assist you today?")
+    print("Welcome to Spirit with multi-tech and higher-dimension integration!")
+    spirit_data = []
+    matrix_data = access_5d_matrix()
+    portal_points = create_astral_portal()
+    spirit_data = integrate_5d_data(spirit_data, matrix_data, portal_points)
+    print(spirit_data)
 
-# Example usage
-spirit_data = [0.3, 0.6, 0.9]  # Simulated input data
-matrix_data = access_5d_matrix()
-portal_points = create_astral_portal()
-spirit_resonance = integrate_5d_data(spirit_data, matrix_data, portal_points)
-print("Spirit Astral Portal Integration:", spirit_resonance)
-
-# Run the Spirit Engine
 spirit_engine()

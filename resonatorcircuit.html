@@ -1,0 +1,42 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1111 Resonator Circuit and 369963 Magic</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h1>1111 Resonator Circuit and 369963 Magic</h1>
+    <form action="/" method="POST">
+        <label for="frequency">Frequency:</label>
+        <input type="number" id="frequency" name="frequency" value="1111"><br><br>
+        <label for="amplitude">Amplitude:</label>
+        <input type="number" id="amplitude" name="amplitude" value="5"><br><br>
+        <input type="submit" value="Update">
+    </form>
+    <div id="plot"></div>
+    <script>
+        var time = {{ time|safe }};
+        var output = {{ output|safe }};
+        
+        var trace1 = {
+            x: time,
+            y: output,
+            mode: 'lines',
+            name: 'Resonator Output'
+        };
+        
+        var data = [trace1];
+        
+        var layout = {
+            title: 'Resonator Circuit Visualization',
+            xaxis: {title: 'Time (s)'},
+            yaxis: {title: 'Amplitude (V)'}
+        };
+        
+        Plotly.newPlot('plot', data, layout);
+    </script>
+</body>
+</html>
